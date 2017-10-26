@@ -15,9 +15,9 @@
 def speak_to_grandma(string)
   if (string == "I LOVE YOU, GRANDNA!")
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif (string == !string.upcase)
-    puts "HUH?! SPEAK UP, SONNY!"
-  else (string == string.upcase)
+  elsif (string == string.upcase)
     puts "NO, NOT SINCE 1938!"
+  else (string == string.upcase)
+    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
